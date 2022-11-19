@@ -13,100 +13,103 @@
   <title>Interactive rating component</title>
 </head>
 <body>
-  <!-- Rating state start -->
-  <div class="rating_container" id="rating_container">
-    <figure class="rating_container_icon">
-      <img src="./images/icon-star.svg" alt="icon-star"/>
-    </figure>
-    <h3 class="rating_container_title">How did we do?</h1>
-    <p class="rating_container_paragraph">
-      Please let us know how we did with your support request. 
-      All feedback is appreciated to help us improve our offering!
-    </p>
-    <form 
-      id="ratingForm"
-      class="rating_container_form""  
-    >
-      <label class="rating-container_form-label">
-        <input 
-          class="rating_container_label-input" 
-          id="star-1"
-          type="radio"
-          name="rating"
-          value="1" 
-        />
-        <span class="rating_container_label-span">1</span>
-      </label>
-      <label class="rating-container_form-label">
-        <input 
-          class="rating_container_label-input" 
-          id="star-2"
-          type="radio"
-          name="rating"
-          value="2" 
-        />
-        <span class="rating_container_label-span">2</span>
-      </label>
-      <label class="rating-container_form-label">
-        <input 
-          class="rating_container_label-input" 
-          id="star-3"
-          type="radio"
-          name="rating"
-          value="3" 
-        />
-        <span class="rating_container_label-span">3</span>
-      </label>
-      <label class="rating-container_form-label">
-        <input 
-          class="rating_container_label-input" 
-          id="star-4"
-          type="radio"
-          name="rating"
-          value="4" 
-        />
-        <span class="rating_container_label-span">4</span>
-      </label>
-      <label class="rating-container_form-label">
-        <input 
-          class="rating_container_label-input" 
-          id="star-5"
-          type="radio"
-          name="rating"
-          value="5" 
-        />
-        <span class="rating_container_label-span">5</span>
-      </label>
-      <input 
-        id="submitBtn"
-        class="rating_container_form-submit" 
-        type="submit" 
-        value="SUBMIT"
-      />
-    </form>
-  </div>
-  <!-- Rating state end -->
-  
-  <!-- Thank you state start -->
-  <div class="thanks_container hidden" id="thanks_container">
-    <figure class="thanks_container_img">
-      <img src="./images/illustration-thank-you.svg" alt="" />
-    </figure>
-    <div class="thanks_container_text">
-      <p id="rating">You selected</p>
-    </div>
-    <div class="thanks_container_message">
-      <h2>Thank you!</h2>
-      <p>
-        We appreciate you taking the time to give a rating. If you ever need more support,
-        don’t hesitate to get in touch!
+  <main>
+    <!-- Rating state start -->
+    <div class="rating_container" id="rating_container">
+      <figure class="rating_container_icon">
+        <img src="./images/icon-star.svg" alt="icon-star"/>
+      </figure>
+      <h1 class="rating_container_title">How did we do?</h1>
+      <p class="rating_container_paragraph">
+        Please let us know how we did with your support request. 
+        All feedback is appreciated to help us improve our offering!
       </p>
+      <form 
+        id="ratingForm"
+        class="rating_container_form""  
+      >
+        <label class="rating-container_form-label">
+          <input 
+            class="rating_container_label-input" 
+            id="star-1"
+            type="radio"
+            name="rating"
+            value="1" 
+          />
+          <span class="rating_container_label-span">1</span>
+        </label>
+        <label class="rating-container_form-label">
+          <input 
+            class="rating_container_label-input" 
+            id="star-2"
+            type="radio"
+            name="rating"
+            value="2" 
+          />
+          <span class="rating_container_label-span">2</span>
+        </label>
+        <label class="rating-container_form-label">
+          <input 
+            class="rating_container_label-input" 
+            id="star-3"
+            type="radio"
+            name="rating"
+            value="3" 
+          />
+          <span class="rating_container_label-span">3</span>
+        </label>
+        <label class="rating-container_form-label">
+          <input 
+            class="rating_container_label-input" 
+            id="star-4"
+            type="radio"
+            name="rating"
+            value="4" 
+          />
+          <span class="rating_container_label-span">4</span>
+        </label>
+        <label class="rating-container_form-label">
+          <input 
+            class="rating_container_label-input" 
+            id="star-5"
+            type="radio"
+            name="rating"
+            value="5" 
+          />
+          <span class="rating_container_label-span">5</span>
+        </label>
+        <input 
+          id="submitBtn"
+          class="rating_container_form-submit" 
+          type="submit" 
+          value="SUBMIT"
+        />
+      </form>
     </div>
-  </div>
-  <!-- Thank you state end -->
-
-  <div class="attribution">
-    Coded by <a href="http://github.com/yunsuklee" target="_blank">yunsuklee</a>.
-  </div>
+    <!-- Rating state end -->
+    
+    <!-- Thank you state start -->
+    <div class="thanks_container hidden" id="thanks_container">
+      <figure class="thanks_container_img">
+        <img src="./images/illustration-thank-you.svg" alt="" />
+      </figure>
+      <div class="thanks_container_text">
+        <p id="rating">You selected</p>
+      </div>
+      <div class="thanks_container_message">
+        <h2>Thank you!</h2>
+        <p>
+          We appreciate you taking the time to give a rating. If you ever need more support,
+          don’t hesitate to get in touch!
+        </p>
+      </div>
+    </div>
+    <!-- Thank you state end -->
+  </main>
+  <footer>
+    <div class="attribution">
+      Coded by <a href="http://github.com/yunsuklee" target="_blank">yunsuklee</a>.
+    </div>
+  </footer>
 </body>
 </html>

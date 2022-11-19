@@ -33,7 +33,7 @@ body {
   align-items: center;
 }
 
-h3 {
+h1 {
   font-size: 30px;
   font-weight: 700;
   color: var(--white);
@@ -308,7 +308,10 @@ input[type="radio"] {
   display: none;
 }
 
-.attribution {
+footer {
   margin-top: 5%;
+}
+
+.attribution {
   color: var(--light-grey);
 }
