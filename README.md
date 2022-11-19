@@ -4,6 +4,8 @@
 
 An interactive and responsive rating component using plain HTML, CSS and JS. Keeping it clean and simple :)
 
+https://yunsuklee.github.io/interactive-rating-component/
+
 ### The Component 
 
 Users should be able to:
