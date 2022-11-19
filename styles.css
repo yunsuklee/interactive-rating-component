@@ -239,12 +239,13 @@ input[type="radio"] {
 
 */
 
-@media(max-width: 375px) {
+@media(max-width: 450px) {
   .rating_container, .thanks_container {
     width: 300px;
     height: 350px;
     padding: 25px;
     border-radius: 5%;
+    overflow: hidden;
   }
 
   .rating_container_title {
